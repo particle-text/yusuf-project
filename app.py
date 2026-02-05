@@ -18,10 +18,11 @@ with open("elements.json", "r", encoding="utf-8") as f:
 
 
 def normalize(text):
-text = text.strip().lower()
-if text.startswith("ال"):
-text = text[2:]
-return text
+    text = text.strip().lower()
+    if text.startswith("ال"):
+        text = text[2:]
+    return text
+
 
 
 # -------------------------
@@ -131,3 +132,4 @@ caption="الجدول الدوري للعناصر",
 use_container_width=True
 
 )
+
