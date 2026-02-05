@@ -9,7 +9,7 @@ import json
 
 
 with open("elements.json", "r", encoding="utf-8") as f:
-elements = json.load(f)
+    elements = json.load(f)
 
 
 # -------------------------
@@ -129,4 +129,5 @@ st.image(
 "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Periodic_table_large.svg/1200px-Periodic_table_large.svg.png",
 caption="الجدول الدوري للعناصر",
 use_container_width=True
+
 )
